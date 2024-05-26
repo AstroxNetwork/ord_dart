@@ -1,0 +1,6 @@
+dart_entrypoint_class_name: OrdDart
+rust_input: libord/src/api/**/*.rs
+dart_output: lib/src
+c_output: frb_generated.h
+dump_all: true
+local: true

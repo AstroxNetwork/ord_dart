@@ -1,0 +1,28 @@
+name: ord_dart
+description: "The library related to the ordinals protocol currently supports the runes protocol."
+homepage: https://github.com/AstroxNetwork
+repository: https://github.com/AstroxNetwork/ord_dart
+issue_tracker: https://github.com/AstroxNetwork/ord_dart/issues
+version: 0.0.8-dev.1+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ord:
+    path: rust_builder
+  flutter_rust_bridge: ^2.0.0-dev.36
+  freezed_annotation: ^2.2.0
+  meta: ^1.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.1.0+1
+  build_runner: ^2.4.4
+  ffigen: ^11.0.0
+  flutter_lints: ^3.0.0
+  convert: ^3.1.1
+  integration_test:
+    sdk: flutter
