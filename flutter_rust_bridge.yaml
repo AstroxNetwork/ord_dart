@@ -1,7 +1,4 @@
 dart_entrypoint_class_name: OrdDart
 rust_input: crate::api
-rust_root: libord
+rust_root: rust
 dart_output: lib/src
-c_output: frb_generated.h
-dump_all: true
-local: true

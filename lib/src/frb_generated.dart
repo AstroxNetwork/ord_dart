@@ -61,8 +61,8 @@ class OrdDart extends BaseEntrypoint<OrdDartApi, OrdDartApiImpl, OrdDartWire> {
 
   static const kDefaultExternalLibraryLoaderConfig =
       ExternalLibraryLoaderConfig(
-    stem: 'ord',
-    ioDirectory: 'libord/target/release/',
+    stem: 'ord_dart',
+    ioDirectory: 'rust/target/release/',
     webPrefix: 'pkg/',
   );
 }
