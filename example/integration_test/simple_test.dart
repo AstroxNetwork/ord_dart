@@ -1,8 +1,7 @@
 import 'package:convert/convert.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
-import 'package:ord_dart/rune.dart';
-import 'package:ord_dart/src/frb_generated.dart';
+import 'package:ord_dart/ord_dart.dart';
 
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();

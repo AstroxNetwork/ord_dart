@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.astrox" "\0"
-            VALUE "FileDescription", "ord_dart" "\0"
+            VALUE "FileDescription", "ord_dart_example" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "ord_dart" "\0"
+            VALUE "InternalName", "ord_dart_example" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.astrox. All rights reserved." "\0"
-            VALUE "OriginalFilename", "ord_dart.exe" "\0"
-            VALUE "ProductName", "ord_dart" "\0"
+            VALUE "OriginalFilename", "ord_dart_example.exe" "\0"
+            VALUE "ProductName", "ord_dart_example" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
