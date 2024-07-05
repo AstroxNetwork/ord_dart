@@ -1,5 +1,5 @@
 name: ord_dart
-version: 0.1.0+2
+version: 0.0.8+1
 
 description: "The Flutter plugin that supports Ordinals protocol (Runes protocol only)."
 repository: https://github.com/AstroxNetwork/ord_dart
