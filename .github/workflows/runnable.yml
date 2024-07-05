@@ -1,0 +1,51 @@
+name: Runnable (stable)
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    name: Analyze on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v3
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: stable
+          components: rustfmt, clippy
+      - uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '11'
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+      - run: flutter pub get
+      - name: (Linux) Prepare requirements
+        run: sudo apt update && sudo apt-get install -y libglu1-mesa ninja-build clang cmake pkg-config libgtk-3-dev liblzma-dev
+        if: runner.os == 'Linux'
+      - name: (Linux) Integration test
+        run: cd example && flutter test -d linux integration_test/simple_test.dart
+        if: runner.os == 'Linux'
+      - name: (Windows) Prepare requirements
+        uses: KyleMayes/install-llvm-action@v1
+        if: runner.os == 'Windows'
+        with:
+          version: "15"
+      - name: (Windows) Integration test
+        run: cd example && flutter test -d windows integration_test/simple_test.dart
+        if: runner.os == 'Windows'
+      - name: (macOS) Integration test
+        run: cd example && flutter test -d macos integration_test/simple_test.dart
+        if: runner.os == 'macOS'
+      - name: Publish dry run
+        run: dart pub publish --dry-run
+        if: github.repository == 'AstroxNetwork/ord_dart'
