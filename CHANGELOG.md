@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.0+2
+
+- Fixes the build process on desktop platforms.
+
 ## 0.1.0+1
 
 - Fixes the build process when using the plugin over-the-air.
