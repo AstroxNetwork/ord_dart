@@ -17,14 +17,12 @@ final _privateConstructorUsedError = UnsupportedError(
 /// @nodoc
 mixin _$Artifact {
   Object get field0 => throw _privateConstructorUsedError;
-
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function(Cenotaph field0) cenotaph,
     required TResult Function(Runestone field0) runestone,
   }) =>
       throw _privateConstructorUsedError;
-
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function(Cenotaph field0)? cenotaph,
@@ -38,14 +36,12 @@ mixin _$Artifact {
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
-
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
     required TResult Function(Artifact_Cenotaph value) cenotaph,
     required TResult Function(Artifact_Runestone value) runestone,
   }) =>
       throw _privateConstructorUsedError;
-
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(Artifact_Cenotaph value)? cenotaph,
@@ -72,9 +68,9 @@ class _$ArtifactCopyWithImpl<$Res, $Val extends Artifact>
     implements $ArtifactCopyWith<$Res> {
   _$ArtifactCopyWithImpl(this._value, this._then);
 
-// ignore: unused_field
+  // ignore: unused_field
   final $Val _value;
-// ignore: unused_field
+  // ignore: unused_field
   final $Res Function($Val) _then;
 }
 
@@ -399,9 +395,9 @@ class _$CenotaphCopyWithImpl<$Res, $Val extends Cenotaph>
     implements $CenotaphCopyWith<$Res> {
   _$CenotaphCopyWithImpl(this._value, this._then);
 
-// ignore: unused_field
+  // ignore: unused_field
   final $Val _value;
-// ignore: unused_field
+  // ignore: unused_field
   final $Res Function($Val) _then;
 
   @pragma('vm:prefer-inline')
@@ -580,9 +576,9 @@ class _$EdictCopyWithImpl<$Res, $Val extends Edict>
     implements $EdictCopyWith<$Res> {
   _$EdictCopyWithImpl(this._value, this._then);
 
-// ignore: unused_field
+  // ignore: unused_field
   final $Val _value;
-// ignore: unused_field
+  // ignore: unused_field
   final $Res Function($Val) _then;
 
   @pragma('vm:prefer-inline')
@@ -757,9 +753,9 @@ class _$EtchingCopyWithImpl<$Res, $Val extends Etching>
     implements $EtchingCopyWith<$Res> {
   _$EtchingCopyWithImpl(this._value, this._then);
 
-// ignore: unused_field
+  // ignore: unused_field
   final $Val _value;
-// ignore: unused_field
+  // ignore: unused_field
   final $Res Function($Val) _then;
 
   @pragma('vm:prefer-inline')
@@ -1015,9 +1011,9 @@ class _$RuneCopyWithImpl<$Res, $Val extends Rune>
     implements $RuneCopyWith<$Res> {
   _$RuneCopyWithImpl(this._value, this._then);
 
-// ignore: unused_field
+  // ignore: unused_field
   final $Val _value;
-// ignore: unused_field
+  // ignore: unused_field
   final $Res Function($Val) _then;
 
   @pragma('vm:prefer-inline')
@@ -1125,9 +1121,9 @@ class _$RuneIdCopyWithImpl<$Res, $Val extends RuneId>
     implements $RuneIdCopyWith<$Res> {
   _$RuneIdCopyWithImpl(this._value, this._then);
 
-// ignore: unused_field
+  // ignore: unused_field
   final $Val _value;
-// ignore: unused_field
+  // ignore: unused_field
   final $Res Function($Val) _then;
 
   @pragma('vm:prefer-inline')
@@ -1259,9 +1255,9 @@ class _$RunestoneCopyWithImpl<$Res, $Val extends Runestone>
     implements $RunestoneCopyWith<$Res> {
   _$RunestoneCopyWithImpl(this._value, this._then);
 
-// ignore: unused_field
+  // ignore: unused_field
   final $Val _value;
-// ignore: unused_field
+  // ignore: unused_field
   final $Res Function($Val) _then;
 
   @pragma('vm:prefer-inline')
@@ -1385,7 +1381,7 @@ class _$RunestoneImpl extends _Runestone {
     final value = _edicts;
     if (value == null) return null;
     if (_edicts is EqualUnmodifiableListView) return _edicts;
-// ignore: implicit_dynamic_type
+    // ignore: implicit_dynamic_type
     return EqualUnmodifiableListView(value);
   }
 
@@ -1471,9 +1467,9 @@ class _$SpacedRuneCopyWithImpl<$Res, $Val extends SpacedRune>
     implements $SpacedRuneCopyWith<$Res> {
   _$SpacedRuneCopyWithImpl(this._value, this._then);
 
-// ignore: unused_field
+  // ignore: unused_field
   final $Val _value;
-// ignore: unused_field
+  // ignore: unused_field
   final $Res Function($Val) _then;
 
   @pragma('vm:prefer-inline')
@@ -1618,9 +1614,9 @@ class _$TermsCopyWithImpl<$Res, $Val extends Terms>
     implements $TermsCopyWith<$Res> {
   _$TermsCopyWithImpl(this._value, this._then);
 
-// ignore: unused_field
+  // ignore: unused_field
   final $Val _value;
-// ignore: unused_field
+  // ignore: unused_field
   final $Res Function($Val) _then;
 
   @pragma('vm:prefer-inline')
