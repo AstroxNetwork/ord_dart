@@ -13,12 +13,12 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_rust_bridge: '>=2.1.0 <2.2.0'
+  flutter_rust_bridge: '>=2.5.0 <2.6.0'
   freezed_annotation: ^2.2.0
   meta: ^1.12.0
 
 dev_dependencies:
-  flutter_lints: ^4.0.0
+  flutter_lints: any
   flutter_test:
     sdk: flutter
   integration_test:
