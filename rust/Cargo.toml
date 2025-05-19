@@ -13,8 +13,4 @@ ordinals = "=0.0.8"
 
 [dependencies.flutter_rust_bridge]
 package = "flutter_rust_bridge"
-version = "=2.5.0"
-
-[build-dependencies]
-anyhow = { version = "1.0.86", features = ["backtrace"] }
-flutter_rust_bridge_codegen = "2.5"
+version = "=2.10.0"
