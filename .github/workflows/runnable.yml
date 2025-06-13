@@ -46,6 +46,7 @@ jobs:
       - name: (macOS) Integration test
         run: cd example && flutter test -d macos integration_test/simple_test.dart
         if: runner.os == 'macOS'
+      - run: git status
       - name: Publish dry run
         run: dart pub publish --dry-run
         if: github.repository == 'AstroxNetwork/ord_dart'
