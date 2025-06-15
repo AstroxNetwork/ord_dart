@@ -23,8 +23,8 @@ jobs:
           components: rustfmt, clippy
       - uses: actions/setup-java@v2
         with:
-          distribution: 'adopt'
-          java-version: '11'
+          distribution: 'zulu'
+          java-version: '17'
       - uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
@@ -46,6 +46,9 @@ jobs:
       - name: (macOS) Integration test
         run: cd example && flutter test -d macos integration_test/simple_test.dart
         if: runner.os == 'macOS'
+      - run: |
+          git status
+          git --no-pager diff
       - name: Publish dry run
         run: dart pub publish --dry-run
         if: github.repository == 'AstroxNetwork/ord_dart'

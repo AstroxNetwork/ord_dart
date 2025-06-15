@@ -3,6 +3,10 @@
 > Versions prefix will sync with `crate::ordinals`.
 > See https://crates.io/crates/ordinals/versions.
 
+## 0.0.8+5
+
+- Upgrade FRB 2.10 and Freezed 3.0.
+
 ## 0.0.8+4
 
 - Make pod shell respect configured profile on Darwin.

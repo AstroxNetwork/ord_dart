@@ -1,3 +1,4 @@
+// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -9,76 +10,74 @@ part of 'rune.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
 /// @nodoc
 mixin _$Artifact {
-  Object get field0 => throw _privateConstructorUsedError;
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>({
-    required TResult Function(Cenotaph field0) cenotaph,
-    required TResult Function(Runestone field0) runestone,
-  }) =>
-      throw _privateConstructorUsedError;
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(Cenotaph field0)? cenotaph,
-    TResult? Function(Runestone field0)? runestone,
-  }) =>
-      throw _privateConstructorUsedError;
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>({
-    TResult Function(Cenotaph field0)? cenotaph,
-    TResult Function(Runestone field0)? runestone,
-    required TResult orElse(),
-  }) =>
-      throw _privateConstructorUsedError;
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>({
-    required TResult Function(Artifact_Cenotaph value) cenotaph,
-    required TResult Function(Artifact_Runestone value) runestone,
-  }) =>
-      throw _privateConstructorUsedError;
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(Artifact_Cenotaph value)? cenotaph,
-    TResult? Function(Artifact_Runestone value)? runestone,
-  }) =>
-      throw _privateConstructorUsedError;
-  @optionalTypeArgs
-  TResult maybeMap<TResult extends Object?>({
-    TResult Function(Artifact_Cenotaph value)? cenotaph,
-    TResult Function(Artifact_Runestone value)? runestone,
-    required TResult orElse(),
-  }) =>
-      throw _privateConstructorUsedError;
+  Object get field0;
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is Artifact &&
+            const DeepCollectionEquality().equals(other.field0, field0));
+  }
+
+  @override
+  int get hashCode =>
+      Object.hash(runtimeType, const DeepCollectionEquality().hash(field0));
+
+  @override
+  String toString() {
+    return 'Artifact(field0: $field0)';
+  }
 }
 
 /// @nodoc
-abstract class $ArtifactCopyWith<$Res> {
-  factory $ArtifactCopyWith(Artifact value, $Res Function(Artifact) then) =
-      _$ArtifactCopyWithImpl<$Res, Artifact>;
+class $ArtifactCopyWith<$Res> {
+  $ArtifactCopyWith(Artifact _, $Res Function(Artifact) __);
 }
 
 /// @nodoc
-class _$ArtifactCopyWithImpl<$Res, $Val extends Artifact>
+
+class Artifact_Cenotaph extends Artifact {
+  const Artifact_Cenotaph(this.field0) : super._();
+
+  @override
+  final Cenotaph field0;
+
+  /// Create a copy of Artifact
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  $Artifact_CenotaphCopyWith<Artifact_Cenotaph> get copyWith =>
+      _$Artifact_CenotaphCopyWithImpl<Artifact_Cenotaph>(this, _$identity);
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is Artifact_Cenotaph &&
+            (identical(other.field0, field0) || other.field0 == field0));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, field0);
+
+  @override
+  String toString() {
+    return 'Artifact.cenotaph(field0: $field0)';
+  }
+}
+
+/// @nodoc
+abstract mixin class $Artifact_CenotaphCopyWith<$Res>
     implements $ArtifactCopyWith<$Res> {
-  _$ArtifactCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-}
-
-/// @nodoc
-abstract class _$$Artifact_CenotaphImplCopyWith<$Res> {
-  factory _$$Artifact_CenotaphImplCopyWith(_$Artifact_CenotaphImpl value,
-          $Res Function(_$Artifact_CenotaphImpl) then) =
-      __$$Artifact_CenotaphImplCopyWithImpl<$Res>;
+  factory $Artifact_CenotaphCopyWith(
+          Artifact_Cenotaph value, $Res Function(Artifact_Cenotaph) _then) =
+      _$Artifact_CenotaphCopyWithImpl;
   @useResult
   $Res call({Cenotaph field0});
 
@@ -86,146 +85,76 @@ abstract class _$$Artifact_CenotaphImplCopyWith<$Res> {
 }
 
 /// @nodoc
-class __$$Artifact_CenotaphImplCopyWithImpl<$Res>
-    extends _$ArtifactCopyWithImpl<$Res, _$Artifact_CenotaphImpl>
-    implements _$$Artifact_CenotaphImplCopyWith<$Res> {
-  __$$Artifact_CenotaphImplCopyWithImpl(_$Artifact_CenotaphImpl _value,
-      $Res Function(_$Artifact_CenotaphImpl) _then)
-      : super(_value, _then);
+class _$Artifact_CenotaphCopyWithImpl<$Res>
+    implements $Artifact_CenotaphCopyWith<$Res> {
+  _$Artifact_CenotaphCopyWithImpl(this._self, this._then);
 
+  final Artifact_Cenotaph _self;
+  final $Res Function(Artifact_Cenotaph) _then;
+
+  /// Create a copy of Artifact
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
-  @override
   $Res call({
     Object? field0 = null,
   }) {
-    return _then(_$Artifact_CenotaphImpl(
+    return _then(Artifact_Cenotaph(
       null == field0
-          ? _value.field0
+          ? _self.field0
           : field0 // ignore: cast_nullable_to_non_nullable
               as Cenotaph,
     ));
   }
 
+  /// Create a copy of Artifact
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $CenotaphCopyWith<$Res> get field0 {
-    return $CenotaphCopyWith<$Res>(_value.field0, (value) {
-      return _then(_value.copyWith(field0: value));
+    return $CenotaphCopyWith<$Res>(_self.field0, (value) {
+      return _then(_self.copyWith(field0: value));
     });
   }
 }
 
 /// @nodoc
 
-class _$Artifact_CenotaphImpl extends Artifact_Cenotaph {
-  const _$Artifact_CenotaphImpl(this.field0) : super._();
+class Artifact_Runestone extends Artifact {
+  const Artifact_Runestone(this.field0) : super._();
 
   @override
-  final Cenotaph field0;
+  final Runestone field0;
 
-  @override
-  String toString() {
-    return 'Artifact.cenotaph(field0: $field0)';
-  }
+  /// Create a copy of Artifact
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  $Artifact_RunestoneCopyWith<Artifact_Runestone> get copyWith =>
+      _$Artifact_RunestoneCopyWithImpl<Artifact_Runestone>(this, _$identity);
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$Artifact_CenotaphImpl &&
+            other is Artifact_Runestone &&
             (identical(other.field0, field0) || other.field0 == field0));
   }
 
   @override
   int get hashCode => Object.hash(runtimeType, field0);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$Artifact_CenotaphImplCopyWith<_$Artifact_CenotaphImpl> get copyWith =>
-      __$$Artifact_CenotaphImplCopyWithImpl<_$Artifact_CenotaphImpl>(
-          this, _$identity);
-
-  @override
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>({
-    required TResult Function(Cenotaph field0) cenotaph,
-    required TResult Function(Runestone field0) runestone,
-  }) {
-    return cenotaph(field0);
+  String toString() {
+    return 'Artifact.runestone(field0: $field0)';
   }
-
-  @override
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(Cenotaph field0)? cenotaph,
-    TResult? Function(Runestone field0)? runestone,
-  }) {
-    return cenotaph?.call(field0);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>({
-    TResult Function(Cenotaph field0)? cenotaph,
-    TResult Function(Runestone field0)? runestone,
-    required TResult orElse(),
-  }) {
-    if (cenotaph != null) {
-      return cenotaph(field0);
-    }
-    return orElse();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>({
-    required TResult Function(Artifact_Cenotaph value) cenotaph,
-    required TResult Function(Artifact_Runestone value) runestone,
-  }) {
-    return cenotaph(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(Artifact_Cenotaph value)? cenotaph,
-    TResult? Function(Artifact_Runestone value)? runestone,
-  }) {
-    return cenotaph?.call(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeMap<TResult extends Object?>({
-    TResult Function(Artifact_Cenotaph value)? cenotaph,
-    TResult Function(Artifact_Runestone value)? runestone,
-    required TResult orElse(),
-  }) {
-    if (cenotaph != null) {
-      return cenotaph(this);
-    }
-    return orElse();
-  }
-}
-
-abstract class Artifact_Cenotaph extends Artifact {
-  const factory Artifact_Cenotaph(final Cenotaph field0) =
-      _$Artifact_CenotaphImpl;
-  const Artifact_Cenotaph._() : super._();
-
-  @override
-  Cenotaph get field0;
-  @JsonKey(ignore: true)
-  _$$Artifact_CenotaphImplCopyWith<_$Artifact_CenotaphImpl> get copyWith =>
-      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class _$$Artifact_RunestoneImplCopyWith<$Res> {
-  factory _$$Artifact_RunestoneImplCopyWith(_$Artifact_RunestoneImpl value,
-          $Res Function(_$Artifact_RunestoneImpl) then) =
-      __$$Artifact_RunestoneImplCopyWithImpl<$Res>;
+abstract mixin class $Artifact_RunestoneCopyWith<$Res>
+    implements $ArtifactCopyWith<$Res> {
+  factory $Artifact_RunestoneCopyWith(
+          Artifact_Runestone value, $Res Function(Artifact_Runestone) _then) =
+      _$Artifact_RunestoneCopyWithImpl;
   @useResult
   $Res call({Runestone field0});
 
@@ -233,291 +162,56 @@ abstract class _$$Artifact_RunestoneImplCopyWith<$Res> {
 }
 
 /// @nodoc
-class __$$Artifact_RunestoneImplCopyWithImpl<$Res>
-    extends _$ArtifactCopyWithImpl<$Res, _$Artifact_RunestoneImpl>
-    implements _$$Artifact_RunestoneImplCopyWith<$Res> {
-  __$$Artifact_RunestoneImplCopyWithImpl(_$Artifact_RunestoneImpl _value,
-      $Res Function(_$Artifact_RunestoneImpl) _then)
-      : super(_value, _then);
+class _$Artifact_RunestoneCopyWithImpl<$Res>
+    implements $Artifact_RunestoneCopyWith<$Res> {
+  _$Artifact_RunestoneCopyWithImpl(this._self, this._then);
 
+  final Artifact_Runestone _self;
+  final $Res Function(Artifact_Runestone) _then;
+
+  /// Create a copy of Artifact
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
-  @override
   $Res call({
     Object? field0 = null,
   }) {
-    return _then(_$Artifact_RunestoneImpl(
+    return _then(Artifact_Runestone(
       null == field0
-          ? _value.field0
+          ? _self.field0
           : field0 // ignore: cast_nullable_to_non_nullable
               as Runestone,
     ));
   }
 
+  /// Create a copy of Artifact
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $RunestoneCopyWith<$Res> get field0 {
-    return $RunestoneCopyWith<$Res>(_value.field0, (value) {
-      return _then(_value.copyWith(field0: value));
+    return $RunestoneCopyWith<$Res>(_self.field0, (value) {
+      return _then(_self.copyWith(field0: value));
     });
   }
-}
-
-/// @nodoc
-
-class _$Artifact_RunestoneImpl extends Artifact_Runestone {
-  const _$Artifact_RunestoneImpl(this.field0) : super._();
-
-  @override
-  final Runestone field0;
-
-  @override
-  String toString() {
-    return 'Artifact.runestone(field0: $field0)';
-  }
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is _$Artifact_RunestoneImpl &&
-            (identical(other.field0, field0) || other.field0 == field0));
-  }
-
-  @override
-  int get hashCode => Object.hash(runtimeType, field0);
-
-  @JsonKey(ignore: true)
-  @override
-  @pragma('vm:prefer-inline')
-  _$$Artifact_RunestoneImplCopyWith<_$Artifact_RunestoneImpl> get copyWith =>
-      __$$Artifact_RunestoneImplCopyWithImpl<_$Artifact_RunestoneImpl>(
-          this, _$identity);
-
-  @override
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>({
-    required TResult Function(Cenotaph field0) cenotaph,
-    required TResult Function(Runestone field0) runestone,
-  }) {
-    return runestone(field0);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(Cenotaph field0)? cenotaph,
-    TResult? Function(Runestone field0)? runestone,
-  }) {
-    return runestone?.call(field0);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>({
-    TResult Function(Cenotaph field0)? cenotaph,
-    TResult Function(Runestone field0)? runestone,
-    required TResult orElse(),
-  }) {
-    if (runestone != null) {
-      return runestone(field0);
-    }
-    return orElse();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>({
-    required TResult Function(Artifact_Cenotaph value) cenotaph,
-    required TResult Function(Artifact_Runestone value) runestone,
-  }) {
-    return runestone(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(Artifact_Cenotaph value)? cenotaph,
-    TResult? Function(Artifact_Runestone value)? runestone,
-  }) {
-    return runestone?.call(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeMap<TResult extends Object?>({
-    TResult Function(Artifact_Cenotaph value)? cenotaph,
-    TResult Function(Artifact_Runestone value)? runestone,
-    required TResult orElse(),
-  }) {
-    if (runestone != null) {
-      return runestone(this);
-    }
-    return orElse();
-  }
-}
-
-abstract class Artifact_Runestone extends Artifact {
-  const factory Artifact_Runestone(final Runestone field0) =
-      _$Artifact_RunestoneImpl;
-  const Artifact_Runestone._() : super._();
-
-  @override
-  Runestone get field0;
-  @JsonKey(ignore: true)
-  _$$Artifact_RunestoneImplCopyWith<_$Artifact_RunestoneImpl> get copyWith =>
-      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
 mixin _$Cenotaph {
-  Rune? get etching => throw _privateConstructorUsedError;
-  Flaw? get flaw => throw _privateConstructorUsedError;
-  RuneId? get mint => throw _privateConstructorUsedError;
+  Rune? get etching;
+  Flaw? get flaw;
+  RuneId? get mint;
 
-  @JsonKey(ignore: true)
+  /// Create a copy of Cenotaph
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
   $CenotaphCopyWith<Cenotaph> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $CenotaphCopyWith<$Res> {
-  factory $CenotaphCopyWith(Cenotaph value, $Res Function(Cenotaph) then) =
-      _$CenotaphCopyWithImpl<$Res, Cenotaph>;
-  @useResult
-  $Res call({Rune? etching, Flaw? flaw, RuneId? mint});
-
-  $RuneCopyWith<$Res>? get etching;
-  $RuneIdCopyWith<$Res>? get mint;
-}
-
-/// @nodoc
-class _$CenotaphCopyWithImpl<$Res, $Val extends Cenotaph>
-    implements $CenotaphCopyWith<$Res> {
-  _$CenotaphCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? etching = freezed,
-    Object? flaw = freezed,
-    Object? mint = freezed,
-  }) {
-    return _then(_value.copyWith(
-      etching: freezed == etching
-          ? _value.etching
-          : etching // ignore: cast_nullable_to_non_nullable
-              as Rune?,
-      flaw: freezed == flaw
-          ? _value.flaw
-          : flaw // ignore: cast_nullable_to_non_nullable
-              as Flaw?,
-      mint: freezed == mint
-          ? _value.mint
-          : mint // ignore: cast_nullable_to_non_nullable
-              as RuneId?,
-    ) as $Val);
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $RuneCopyWith<$Res>? get etching {
-    if (_value.etching == null) {
-      return null;
-    }
-
-    return $RuneCopyWith<$Res>(_value.etching!, (value) {
-      return _then(_value.copyWith(etching: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $RuneIdCopyWith<$Res>? get mint {
-    if (_value.mint == null) {
-      return null;
-    }
-
-    return $RuneIdCopyWith<$Res>(_value.mint!, (value) {
-      return _then(_value.copyWith(mint: value) as $Val);
-    });
-  }
-}
-
-/// @nodoc
-abstract class _$$CenotaphImplCopyWith<$Res>
-    implements $CenotaphCopyWith<$Res> {
-  factory _$$CenotaphImplCopyWith(
-          _$CenotaphImpl value, $Res Function(_$CenotaphImpl) then) =
-      __$$CenotaphImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call({Rune? etching, Flaw? flaw, RuneId? mint});
-
-  @override
-  $RuneCopyWith<$Res>? get etching;
-  @override
-  $RuneIdCopyWith<$Res>? get mint;
-}
-
-/// @nodoc
-class __$$CenotaphImplCopyWithImpl<$Res>
-    extends _$CenotaphCopyWithImpl<$Res, _$CenotaphImpl>
-    implements _$$CenotaphImplCopyWith<$Res> {
-  __$$CenotaphImplCopyWithImpl(
-      _$CenotaphImpl _value, $Res Function(_$CenotaphImpl) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? etching = freezed,
-    Object? flaw = freezed,
-    Object? mint = freezed,
-  }) {
-    return _then(_$CenotaphImpl(
-      etching: freezed == etching
-          ? _value.etching
-          : etching // ignore: cast_nullable_to_non_nullable
-              as Rune?,
-      flaw: freezed == flaw
-          ? _value.flaw
-          : flaw // ignore: cast_nullable_to_non_nullable
-              as Flaw?,
-      mint: freezed == mint
-          ? _value.mint
-          : mint // ignore: cast_nullable_to_non_nullable
-              as RuneId?,
-    ));
-  }
-}
-
-/// @nodoc
-
-class _$CenotaphImpl implements _Cenotaph {
-  const _$CenotaphImpl({this.etching, this.flaw, this.mint});
-
-  @override
-  final Rune? etching;
-  @override
-  final Flaw? flaw;
-  @override
-  final RuneId? mint;
-
-  @override
-  String toString() {
-    return 'Cenotaph(etching: $etching, flaw: $flaw, mint: $mint)';
-  }
+      _$CenotaphCopyWithImpl<Cenotaph>(this as Cenotaph, _$identity);
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$CenotaphImpl &&
+            other is Cenotaph &&
             (identical(other.etching, etching) || other.etching == etching) &&
             (identical(other.flaw, flaw) || other.flaw == flaw) &&
             (identical(other.mint, mint) || other.mint == mint));
@@ -526,114 +220,250 @@ class _$CenotaphImpl implements _Cenotaph {
   @override
   int get hashCode => Object.hash(runtimeType, etching, flaw, mint);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$CenotaphImplCopyWith<_$CenotaphImpl> get copyWith =>
-      __$$CenotaphImplCopyWithImpl<_$CenotaphImpl>(this, _$identity);
-}
-
-abstract class _Cenotaph implements Cenotaph {
-  const factory _Cenotaph(
-      {final Rune? etching,
-      final Flaw? flaw,
-      final RuneId? mint}) = _$CenotaphImpl;
-
-  @override
-  Rune? get etching;
-  @override
-  Flaw? get flaw;
-  @override
-  RuneId? get mint;
-  @override
-  @JsonKey(ignore: true)
-  _$$CenotaphImplCopyWith<_$CenotaphImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  String toString() {
+    return 'Cenotaph(etching: $etching, flaw: $flaw, mint: $mint)';
+  }
 }
 
 /// @nodoc
-mixin _$Edict {
-  RuneId get id => throw _privateConstructorUsedError;
-  BigInt get amount => throw _privateConstructorUsedError;
-  int get output => throw _privateConstructorUsedError;
-
-  @JsonKey(ignore: true)
-  $EdictCopyWith<Edict> get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $EdictCopyWith<$Res> {
-  factory $EdictCopyWith(Edict value, $Res Function(Edict) then) =
-      _$EdictCopyWithImpl<$Res, Edict>;
+abstract mixin class $CenotaphCopyWith<$Res> {
+  factory $CenotaphCopyWith(Cenotaph value, $Res Function(Cenotaph) _then) =
+      _$CenotaphCopyWithImpl;
   @useResult
-  $Res call({RuneId id, BigInt amount, int output});
+  $Res call({Rune? etching, Flaw? flaw, RuneId? mint});
 
-  $RuneIdCopyWith<$Res> get id;
+  $RuneCopyWith<$Res>? get etching;
+  $RuneIdCopyWith<$Res>? get mint;
 }
 
 /// @nodoc
-class _$EdictCopyWithImpl<$Res, $Val extends Edict>
-    implements $EdictCopyWith<$Res> {
-  _$EdictCopyWithImpl(this._value, this._then);
+class _$CenotaphCopyWithImpl<$Res> implements $CenotaphCopyWith<$Res> {
+  _$CenotaphCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final Cenotaph _self;
+  final $Res Function(Cenotaph) _then;
 
+  /// Create a copy of Cenotaph
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? id = null,
-    Object? amount = null,
-    Object? output = null,
+    Object? etching = freezed,
+    Object? flaw = freezed,
+    Object? mint = freezed,
   }) {
-    return _then(_value.copyWith(
-      id: null == id
-          ? _value.id
-          : id // ignore: cast_nullable_to_non_nullable
-              as RuneId,
-      amount: null == amount
-          ? _value.amount
-          : amount // ignore: cast_nullable_to_non_nullable
-              as BigInt,
-      output: null == output
-          ? _value.output
-          : output // ignore: cast_nullable_to_non_nullable
-              as int,
-    ) as $Val);
+    return _then(_self.copyWith(
+      etching: freezed == etching
+          ? _self.etching
+          : etching // ignore: cast_nullable_to_non_nullable
+              as Rune?,
+      flaw: freezed == flaw
+          ? _self.flaw
+          : flaw // ignore: cast_nullable_to_non_nullable
+              as Flaw?,
+      mint: freezed == mint
+          ? _self.mint
+          : mint // ignore: cast_nullable_to_non_nullable
+              as RuneId?,
+    ));
   }
 
+  /// Create a copy of Cenotaph
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
-  $RuneIdCopyWith<$Res> get id {
-    return $RuneIdCopyWith<$Res>(_value.id, (value) {
-      return _then(_value.copyWith(id: value) as $Val);
+  $RuneCopyWith<$Res>? get etching {
+    if (_self.etching == null) {
+      return null;
+    }
+
+    return $RuneCopyWith<$Res>(_self.etching!, (value) {
+      return _then(_self.copyWith(etching: value));
+    });
+  }
+
+  /// Create a copy of Cenotaph
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $RuneIdCopyWith<$Res>? get mint {
+    if (_self.mint == null) {
+      return null;
+    }
+
+    return $RuneIdCopyWith<$Res>(_self.mint!, (value) {
+      return _then(_self.copyWith(mint: value));
     });
   }
 }
 
 /// @nodoc
-abstract class _$$EdictImplCopyWith<$Res> implements $EdictCopyWith<$Res> {
-  factory _$$EdictImplCopyWith(
-          _$EdictImpl value, $Res Function(_$EdictImpl) then) =
-      __$$EdictImplCopyWithImpl<$Res>;
+
+class _Cenotaph implements Cenotaph {
+  const _Cenotaph({this.etching, this.flaw, this.mint});
+
   @override
+  final Rune? etching;
+  @override
+  final Flaw? flaw;
+  @override
+  final RuneId? mint;
+
+  /// Create a copy of Cenotaph
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$CenotaphCopyWith<_Cenotaph> get copyWith =>
+      __$CenotaphCopyWithImpl<_Cenotaph>(this, _$identity);
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _Cenotaph &&
+            (identical(other.etching, etching) || other.etching == etching) &&
+            (identical(other.flaw, flaw) || other.flaw == flaw) &&
+            (identical(other.mint, mint) || other.mint == mint));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, etching, flaw, mint);
+
+  @override
+  String toString() {
+    return 'Cenotaph(etching: $etching, flaw: $flaw, mint: $mint)';
+  }
+}
+
+/// @nodoc
+abstract mixin class _$CenotaphCopyWith<$Res>
+    implements $CenotaphCopyWith<$Res> {
+  factory _$CenotaphCopyWith(_Cenotaph value, $Res Function(_Cenotaph) _then) =
+      __$CenotaphCopyWithImpl;
+  @override
+  @useResult
+  $Res call({Rune? etching, Flaw? flaw, RuneId? mint});
+
+  @override
+  $RuneCopyWith<$Res>? get etching;
+  @override
+  $RuneIdCopyWith<$Res>? get mint;
+}
+
+/// @nodoc
+class __$CenotaphCopyWithImpl<$Res> implements _$CenotaphCopyWith<$Res> {
+  __$CenotaphCopyWithImpl(this._self, this._then);
+
+  final _Cenotaph _self;
+  final $Res Function(_Cenotaph) _then;
+
+  /// Create a copy of Cenotaph
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? etching = freezed,
+    Object? flaw = freezed,
+    Object? mint = freezed,
+  }) {
+    return _then(_Cenotaph(
+      etching: freezed == etching
+          ? _self.etching
+          : etching // ignore: cast_nullable_to_non_nullable
+              as Rune?,
+      flaw: freezed == flaw
+          ? _self.flaw
+          : flaw // ignore: cast_nullable_to_non_nullable
+              as Flaw?,
+      mint: freezed == mint
+          ? _self.mint
+          : mint // ignore: cast_nullable_to_non_nullable
+              as RuneId?,
+    ));
+  }
+
+  /// Create a copy of Cenotaph
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $RuneCopyWith<$Res>? get etching {
+    if (_self.etching == null) {
+      return null;
+    }
+
+    return $RuneCopyWith<$Res>(_self.etching!, (value) {
+      return _then(_self.copyWith(etching: value));
+    });
+  }
+
+  /// Create a copy of Cenotaph
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $RuneIdCopyWith<$Res>? get mint {
+    if (_self.mint == null) {
+      return null;
+    }
+
+    return $RuneIdCopyWith<$Res>(_self.mint!, (value) {
+      return _then(_self.copyWith(mint: value));
+    });
+  }
+}
+
+/// @nodoc
+mixin _$Edict {
+  RuneId get id;
+  BigInt get amount;
+  int get output;
+
+  /// Create a copy of Edict
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  $EdictCopyWith<Edict> get copyWith =>
+      _$EdictCopyWithImpl<Edict>(this as Edict, _$identity);
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is Edict &&
+            (identical(other.id, id) || other.id == id) &&
+            (identical(other.amount, amount) || other.amount == amount) &&
+            (identical(other.output, output) || other.output == output));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, id, amount, output);
+
+  @override
+  String toString() {
+    return 'Edict(id: $id, amount: $amount, output: $output)';
+  }
+}
+
+/// @nodoc
+abstract mixin class $EdictCopyWith<$Res> {
+  factory $EdictCopyWith(Edict value, $Res Function(Edict) _then) =
+      _$EdictCopyWithImpl;
   @useResult
   $Res call({RuneId id, BigInt amount, int output});
 
-  @override
   $RuneIdCopyWith<$Res> get id;
 }
 
 /// @nodoc
-class __$$EdictImplCopyWithImpl<$Res>
-    extends _$EdictCopyWithImpl<$Res, _$EdictImpl>
-    implements _$$EdictImplCopyWith<$Res> {
-  __$$EdictImplCopyWithImpl(
-      _$EdictImpl _value, $Res Function(_$EdictImpl) _then)
-      : super(_value, _then);
+class _$EdictCopyWithImpl<$Res> implements $EdictCopyWith<$Res> {
+  _$EdictCopyWithImpl(this._self, this._then);
 
+  final Edict _self;
+  final $Res Function(Edict) _then;
+
+  /// Create a copy of Edict
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -641,28 +471,37 @@ class __$$EdictImplCopyWithImpl<$Res>
     Object? amount = null,
     Object? output = null,
   }) {
-    return _then(_$EdictImpl(
+    return _then(_self.copyWith(
       id: null == id
-          ? _value.id
+          ? _self.id
           : id // ignore: cast_nullable_to_non_nullable
               as RuneId,
       amount: null == amount
-          ? _value.amount
+          ? _self.amount
           : amount // ignore: cast_nullable_to_non_nullable
               as BigInt,
       output: null == output
-          ? _value.output
+          ? _self.output
           : output // ignore: cast_nullable_to_non_nullable
               as int,
     ));
+  }
+
+  /// Create a copy of Edict
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $RuneIdCopyWith<$Res> get id {
+    return $RuneIdCopyWith<$Res>(_self.id, (value) {
+      return _then(_self.copyWith(id: value));
+    });
   }
 }
 
 /// @nodoc
 
-class _$EdictImpl extends _Edict {
-  const _$EdictImpl(
-      {required this.id, required this.amount, required this.output})
+class _Edict extends Edict {
+  const _Edict({required this.id, required this.amount, required this.output})
       : super._();
 
   @override
@@ -672,16 +511,19 @@ class _$EdictImpl extends _Edict {
   @override
   final int output;
 
+  /// Create a copy of Edict
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'Edict(id: $id, amount: $amount, output: $output)';
-  }
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$EdictCopyWith<_Edict> get copyWith =>
+      __$EdictCopyWithImpl<_Edict>(this, _$identity);
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$EdictImpl &&
+            other is _Edict &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.amount, amount) || other.amount == amount) &&
             (identical(other.output, output) || other.output == output));
@@ -690,50 +532,113 @@ class _$EdictImpl extends _Edict {
   @override
   int get hashCode => Object.hash(runtimeType, id, amount, output);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$EdictImplCopyWith<_$EdictImpl> get copyWith =>
-      __$$EdictImplCopyWithImpl<_$EdictImpl>(this, _$identity);
+  String toString() {
+    return 'Edict(id: $id, amount: $amount, output: $output)';
+  }
 }
 
-abstract class _Edict extends Edict {
-  const factory _Edict(
-      {required final RuneId id,
-      required final BigInt amount,
-      required final int output}) = _$EdictImpl;
-  const _Edict._() : super._();
+/// @nodoc
+abstract mixin class _$EdictCopyWith<$Res> implements $EdictCopyWith<$Res> {
+  factory _$EdictCopyWith(_Edict value, $Res Function(_Edict) _then) =
+      __$EdictCopyWithImpl;
+  @override
+  @useResult
+  $Res call({RuneId id, BigInt amount, int output});
 
   @override
-  RuneId get id;
+  $RuneIdCopyWith<$Res> get id;
+}
+
+/// @nodoc
+class __$EdictCopyWithImpl<$Res> implements _$EdictCopyWith<$Res> {
+  __$EdictCopyWithImpl(this._self, this._then);
+
+  final _Edict _self;
+  final $Res Function(_Edict) _then;
+
+  /// Create a copy of Edict
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  BigInt get amount;
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? id = null,
+    Object? amount = null,
+    Object? output = null,
+  }) {
+    return _then(_Edict(
+      id: null == id
+          ? _self.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as RuneId,
+      amount: null == amount
+          ? _self.amount
+          : amount // ignore: cast_nullable_to_non_nullable
+              as BigInt,
+      output: null == output
+          ? _self.output
+          : output // ignore: cast_nullable_to_non_nullable
+              as int,
+    ));
+  }
+
+  /// Create a copy of Edict
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  int get output;
-  @override
-  @JsonKey(ignore: true)
-  _$$EdictImplCopyWith<_$EdictImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  @pragma('vm:prefer-inline')
+  $RuneIdCopyWith<$Res> get id {
+    return $RuneIdCopyWith<$Res>(_self.id, (value) {
+      return _then(_self.copyWith(id: value));
+    });
+  }
 }
 
 /// @nodoc
 mixin _$Etching {
-  int? get divisibility => throw _privateConstructorUsedError;
-  BigInt? get premine => throw _privateConstructorUsedError;
-  Rune? get rune => throw _privateConstructorUsedError;
-  int? get spacers => throw _privateConstructorUsedError;
-  String? get symbol => throw _privateConstructorUsedError;
-  Terms? get terms => throw _privateConstructorUsedError;
-  bool? get turbo => throw _privateConstructorUsedError;
+  int? get divisibility;
+  BigInt? get premine;
+  Rune? get rune;
+  int? get spacers;
+  String? get symbol;
+  Terms? get terms;
+  bool? get turbo;
 
-  @JsonKey(ignore: true)
-  $EtchingCopyWith<Etching> get copyWith => throw _privateConstructorUsedError;
+  /// Create a copy of Etching
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  $EtchingCopyWith<Etching> get copyWith =>
+      _$EtchingCopyWithImpl<Etching>(this as Etching, _$identity);
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is Etching &&
+            (identical(other.divisibility, divisibility) ||
+                other.divisibility == divisibility) &&
+            (identical(other.premine, premine) || other.premine == premine) &&
+            (identical(other.rune, rune) || other.rune == rune) &&
+            (identical(other.spacers, spacers) || other.spacers == spacers) &&
+            (identical(other.symbol, symbol) || other.symbol == symbol) &&
+            (identical(other.terms, terms) || other.terms == terms) &&
+            (identical(other.turbo, turbo) || other.turbo == turbo));
+  }
+
+  @override
+  int get hashCode => Object.hash(
+      runtimeType, divisibility, premine, rune, spacers, symbol, terms, turbo);
+
+  @override
+  String toString() {
+    return 'Etching(divisibility: $divisibility, premine: $premine, rune: $rune, spacers: $spacers, symbol: $symbol, terms: $terms, turbo: $turbo)';
+  }
 }
 
 /// @nodoc
-abstract class $EtchingCopyWith<$Res> {
-  factory $EtchingCopyWith(Etching value, $Res Function(Etching) then) =
-      _$EtchingCopyWithImpl<$Res, Etching>;
+abstract mixin class $EtchingCopyWith<$Res> {
+  factory $EtchingCopyWith(Etching value, $Res Function(Etching) _then) =
+      _$EtchingCopyWithImpl;
   @useResult
   $Res call(
       {int? divisibility,
@@ -749,15 +654,14 @@ abstract class $EtchingCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$EtchingCopyWithImpl<$Res, $Val extends Etching>
-    implements $EtchingCopyWith<$Res> {
-  _$EtchingCopyWithImpl(this._value, this._then);
+class _$EtchingCopyWithImpl<$Res> implements $EtchingCopyWith<$Res> {
+  _$EtchingCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final Etching _self;
+  final $Res Function(Etching) _then;
 
+  /// Create a copy of Etching
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -769,141 +673,71 @@ class _$EtchingCopyWithImpl<$Res, $Val extends Etching>
     Object? terms = freezed,
     Object? turbo = freezed,
   }) {
-    return _then(_value.copyWith(
+    return _then(_self.copyWith(
       divisibility: freezed == divisibility
-          ? _value.divisibility
+          ? _self.divisibility
           : divisibility // ignore: cast_nullable_to_non_nullable
               as int?,
       premine: freezed == premine
-          ? _value.premine
+          ? _self.premine
           : premine // ignore: cast_nullable_to_non_nullable
               as BigInt?,
       rune: freezed == rune
-          ? _value.rune
+          ? _self.rune
           : rune // ignore: cast_nullable_to_non_nullable
               as Rune?,
       spacers: freezed == spacers
-          ? _value.spacers
+          ? _self.spacers
           : spacers // ignore: cast_nullable_to_non_nullable
               as int?,
       symbol: freezed == symbol
-          ? _value.symbol
+          ? _self.symbol
           : symbol // ignore: cast_nullable_to_non_nullable
               as String?,
       terms: freezed == terms
-          ? _value.terms
+          ? _self.terms
           : terms // ignore: cast_nullable_to_non_nullable
               as Terms?,
       turbo: freezed == turbo
-          ? _value.turbo
-          : turbo // ignore: cast_nullable_to_non_nullable
-              as bool?,
-    ) as $Val);
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $RuneCopyWith<$Res>? get rune {
-    if (_value.rune == null) {
-      return null;
-    }
-
-    return $RuneCopyWith<$Res>(_value.rune!, (value) {
-      return _then(_value.copyWith(rune: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $TermsCopyWith<$Res>? get terms {
-    if (_value.terms == null) {
-      return null;
-    }
-
-    return $TermsCopyWith<$Res>(_value.terms!, (value) {
-      return _then(_value.copyWith(terms: value) as $Val);
-    });
-  }
-}
-
-/// @nodoc
-abstract class _$$EtchingImplCopyWith<$Res> implements $EtchingCopyWith<$Res> {
-  factory _$$EtchingImplCopyWith(
-          _$EtchingImpl value, $Res Function(_$EtchingImpl) then) =
-      __$$EtchingImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call(
-      {int? divisibility,
-      BigInt? premine,
-      Rune? rune,
-      int? spacers,
-      String? symbol,
-      Terms? terms,
-      bool? turbo});
-
-  @override
-  $RuneCopyWith<$Res>? get rune;
-  @override
-  $TermsCopyWith<$Res>? get terms;
-}
-
-/// @nodoc
-class __$$EtchingImplCopyWithImpl<$Res>
-    extends _$EtchingCopyWithImpl<$Res, _$EtchingImpl>
-    implements _$$EtchingImplCopyWith<$Res> {
-  __$$EtchingImplCopyWithImpl(
-      _$EtchingImpl _value, $Res Function(_$EtchingImpl) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? divisibility = freezed,
-    Object? premine = freezed,
-    Object? rune = freezed,
-    Object? spacers = freezed,
-    Object? symbol = freezed,
-    Object? terms = freezed,
-    Object? turbo = freezed,
-  }) {
-    return _then(_$EtchingImpl(
-      divisibility: freezed == divisibility
-          ? _value.divisibility
-          : divisibility // ignore: cast_nullable_to_non_nullable
-              as int?,
-      premine: freezed == premine
-          ? _value.premine
-          : premine // ignore: cast_nullable_to_non_nullable
-              as BigInt?,
-      rune: freezed == rune
-          ? _value.rune
-          : rune // ignore: cast_nullable_to_non_nullable
-              as Rune?,
-      spacers: freezed == spacers
-          ? _value.spacers
-          : spacers // ignore: cast_nullable_to_non_nullable
-              as int?,
-      symbol: freezed == symbol
-          ? _value.symbol
-          : symbol // ignore: cast_nullable_to_non_nullable
-              as String?,
-      terms: freezed == terms
-          ? _value.terms
-          : terms // ignore: cast_nullable_to_non_nullable
-              as Terms?,
-      turbo: freezed == turbo
-          ? _value.turbo
+          ? _self.turbo
           : turbo // ignore: cast_nullable_to_non_nullable
               as bool?,
     ));
   }
+
+  /// Create a copy of Etching
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $RuneCopyWith<$Res>? get rune {
+    if (_self.rune == null) {
+      return null;
+    }
+
+    return $RuneCopyWith<$Res>(_self.rune!, (value) {
+      return _then(_self.copyWith(rune: value));
+    });
+  }
+
+  /// Create a copy of Etching
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $TermsCopyWith<$Res>? get terms {
+    if (_self.terms == null) {
+      return null;
+    }
+
+    return $TermsCopyWith<$Res>(_self.terms!, (value) {
+      return _then(_self.copyWith(terms: value));
+    });
+  }
 }
 
 /// @nodoc
 
-class _$EtchingImpl extends _Etching {
-  const _$EtchingImpl(
+class _Etching extends Etching {
+  const _Etching(
       {this.divisibility,
       this.premine,
       this.rune,
@@ -928,16 +762,19 @@ class _$EtchingImpl extends _Etching {
   @override
   final bool? turbo;
 
+  /// Create a copy of Etching
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'Etching(divisibility: $divisibility, premine: $premine, rune: $rune, spacers: $spacers, symbol: $symbol, terms: $terms, turbo: $turbo)';
-  }
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$EtchingCopyWith<_Etching> get copyWith =>
+      __$EtchingCopyWithImpl<_Etching>(this, _$identity);
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$EtchingImpl &&
+            other is _Etching &&
             (identical(other.divisibility, divisibility) ||
                 other.divisibility == divisibility) &&
             (identical(other.premine, premine) || other.premine == premine) &&
@@ -952,425 +789,474 @@ class _$EtchingImpl extends _Etching {
   int get hashCode => Object.hash(
       runtimeType, divisibility, premine, rune, spacers, symbol, terms, turbo);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$EtchingImplCopyWith<_$EtchingImpl> get copyWith =>
-      __$$EtchingImplCopyWithImpl<_$EtchingImpl>(this, _$identity);
+  String toString() {
+    return 'Etching(divisibility: $divisibility, premine: $premine, rune: $rune, spacers: $spacers, symbol: $symbol, terms: $terms, turbo: $turbo)';
+  }
 }
 
-abstract class _Etching extends Etching {
-  const factory _Etching(
-      {final int? divisibility,
-      final BigInt? premine,
-      final Rune? rune,
-      final int? spacers,
-      final String? symbol,
-      final Terms? terms,
-      final bool? turbo}) = _$EtchingImpl;
-  const _Etching._() : super._();
+/// @nodoc
+abstract mixin class _$EtchingCopyWith<$Res> implements $EtchingCopyWith<$Res> {
+  factory _$EtchingCopyWith(_Etching value, $Res Function(_Etching) _then) =
+      __$EtchingCopyWithImpl;
+  @override
+  @useResult
+  $Res call(
+      {int? divisibility,
+      BigInt? premine,
+      Rune? rune,
+      int? spacers,
+      String? symbol,
+      Terms? terms,
+      bool? turbo});
 
   @override
-  int? get divisibility;
+  $RuneCopyWith<$Res>? get rune;
   @override
-  BigInt? get premine;
+  $TermsCopyWith<$Res>? get terms;
+}
+
+/// @nodoc
+class __$EtchingCopyWithImpl<$Res> implements _$EtchingCopyWith<$Res> {
+  __$EtchingCopyWithImpl(this._self, this._then);
+
+  final _Etching _self;
+  final $Res Function(_Etching) _then;
+
+  /// Create a copy of Etching
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  Rune? get rune;
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? divisibility = freezed,
+    Object? premine = freezed,
+    Object? rune = freezed,
+    Object? spacers = freezed,
+    Object? symbol = freezed,
+    Object? terms = freezed,
+    Object? turbo = freezed,
+  }) {
+    return _then(_Etching(
+      divisibility: freezed == divisibility
+          ? _self.divisibility
+          : divisibility // ignore: cast_nullable_to_non_nullable
+              as int?,
+      premine: freezed == premine
+          ? _self.premine
+          : premine // ignore: cast_nullable_to_non_nullable
+              as BigInt?,
+      rune: freezed == rune
+          ? _self.rune
+          : rune // ignore: cast_nullable_to_non_nullable
+              as Rune?,
+      spacers: freezed == spacers
+          ? _self.spacers
+          : spacers // ignore: cast_nullable_to_non_nullable
+              as int?,
+      symbol: freezed == symbol
+          ? _self.symbol
+          : symbol // ignore: cast_nullable_to_non_nullable
+              as String?,
+      terms: freezed == terms
+          ? _self.terms
+          : terms // ignore: cast_nullable_to_non_nullable
+              as Terms?,
+      turbo: freezed == turbo
+          ? _self.turbo
+          : turbo // ignore: cast_nullable_to_non_nullable
+              as bool?,
+    ));
+  }
+
+  /// Create a copy of Etching
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  int? get spacers;
+  @pragma('vm:prefer-inline')
+  $RuneCopyWith<$Res>? get rune {
+    if (_self.rune == null) {
+      return null;
+    }
+
+    return $RuneCopyWith<$Res>(_self.rune!, (value) {
+      return _then(_self.copyWith(rune: value));
+    });
+  }
+
+  /// Create a copy of Etching
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String? get symbol;
-  @override
-  Terms? get terms;
-  @override
-  bool? get turbo;
-  @override
-  @JsonKey(ignore: true)
-  _$$EtchingImplCopyWith<_$EtchingImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  @pragma('vm:prefer-inline')
+  $TermsCopyWith<$Res>? get terms {
+    if (_self.terms == null) {
+      return null;
+    }
+
+    return $TermsCopyWith<$Res>(_self.terms!, (value) {
+      return _then(_self.copyWith(terms: value));
+    });
+  }
 }
 
 /// @nodoc
 mixin _$Rune {
-  BigInt get field0 => throw _privateConstructorUsedError;
+  BigInt get field0;
 
-  @JsonKey(ignore: true)
-  $RuneCopyWith<Rune> get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $RuneCopyWith<$Res> {
-  factory $RuneCopyWith(Rune value, $Res Function(Rune) then) =
-      _$RuneCopyWithImpl<$Res, Rune>;
-  @useResult
-  $Res call({BigInt field0});
-}
-
-/// @nodoc
-class _$RuneCopyWithImpl<$Res, $Val extends Rune>
-    implements $RuneCopyWith<$Res> {
-  _$RuneCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
+  /// Create a copy of Rune
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? field0 = null,
-  }) {
-    return _then(_value.copyWith(
-      field0: null == field0
-          ? _value.field0
-          : field0 // ignore: cast_nullable_to_non_nullable
-              as BigInt,
-    ) as $Val);
-  }
-}
-
-/// @nodoc
-abstract class _$$RuneImplCopyWith<$Res> implements $RuneCopyWith<$Res> {
-  factory _$$RuneImplCopyWith(
-          _$RuneImpl value, $Res Function(_$RuneImpl) then) =
-      __$$RuneImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call({BigInt field0});
-}
-
-/// @nodoc
-class __$$RuneImplCopyWithImpl<$Res>
-    extends _$RuneCopyWithImpl<$Res, _$RuneImpl>
-    implements _$$RuneImplCopyWith<$Res> {
-  __$$RuneImplCopyWithImpl(_$RuneImpl _value, $Res Function(_$RuneImpl) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? field0 = null,
-  }) {
-    return _then(_$RuneImpl(
-      field0: null == field0
-          ? _value.field0
-          : field0 // ignore: cast_nullable_to_non_nullable
-              as BigInt,
-    ));
-  }
-}
-
-/// @nodoc
-
-class _$RuneImpl extends _Rune {
-  const _$RuneImpl({required this.field0}) : super._();
-
-  @override
-  final BigInt field0;
+  $RuneCopyWith<Rune> get copyWith =>
+      _$RuneCopyWithImpl<Rune>(this as Rune, _$identity);
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$RuneImpl &&
+            other is Rune &&
             (identical(other.field0, field0) || other.field0 == field0));
   }
 
   @override
   int get hashCode => Object.hash(runtimeType, field0);
-
-  @JsonKey(ignore: true)
-  @override
-  @pragma('vm:prefer-inline')
-  _$$RuneImplCopyWith<_$RuneImpl> get copyWith =>
-      __$$RuneImplCopyWithImpl<_$RuneImpl>(this, _$identity);
-}
-
-abstract class _Rune extends Rune {
-  const factory _Rune({required final BigInt field0}) = _$RuneImpl;
-  const _Rune._() : super._();
-
-  @override
-  BigInt get field0;
-  @override
-  @JsonKey(ignore: true)
-  _$$RuneImplCopyWith<_$RuneImpl> get copyWith =>
-      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-mixin _$RuneId {
-  BigInt get block => throw _privateConstructorUsedError;
-  int get tx => throw _privateConstructorUsedError;
-
-  @JsonKey(ignore: true)
-  $RuneIdCopyWith<RuneId> get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $RuneIdCopyWith<$Res> {
-  factory $RuneIdCopyWith(RuneId value, $Res Function(RuneId) then) =
-      _$RuneIdCopyWithImpl<$Res, RuneId>;
+abstract mixin class $RuneCopyWith<$Res> {
+  factory $RuneCopyWith(Rune value, $Res Function(Rune) _then) =
+      _$RuneCopyWithImpl;
   @useResult
-  $Res call({BigInt block, int tx});
+  $Res call({BigInt field0});
 }
 
 /// @nodoc
-class _$RuneIdCopyWithImpl<$Res, $Val extends RuneId>
-    implements $RuneIdCopyWith<$Res> {
-  _$RuneIdCopyWithImpl(this._value, this._then);
+class _$RuneCopyWithImpl<$Res> implements $RuneCopyWith<$Res> {
+  _$RuneCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final Rune _self;
+  final $Res Function(Rune) _then;
 
+  /// Create a copy of Rune
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? block = null,
-    Object? tx = null,
+    Object? field0 = null,
   }) {
-    return _then(_value.copyWith(
-      block: null == block
-          ? _value.block
-          : block // ignore: cast_nullable_to_non_nullable
+    return _then(_self.copyWith(
+      field0: null == field0
+          ? _self.field0
+          : field0 // ignore: cast_nullable_to_non_nullable
               as BigInt,
-      tx: null == tx
-          ? _value.tx
-          : tx // ignore: cast_nullable_to_non_nullable
-              as int,
-    ) as $Val);
-  }
-}
-
-/// @nodoc
-abstract class _$$RuneIdImplCopyWith<$Res> implements $RuneIdCopyWith<$Res> {
-  factory _$$RuneIdImplCopyWith(
-          _$RuneIdImpl value, $Res Function(_$RuneIdImpl) then) =
-      __$$RuneIdImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call({BigInt block, int tx});
-}
-
-/// @nodoc
-class __$$RuneIdImplCopyWithImpl<$Res>
-    extends _$RuneIdCopyWithImpl<$Res, _$RuneIdImpl>
-    implements _$$RuneIdImplCopyWith<$Res> {
-  __$$RuneIdImplCopyWithImpl(
-      _$RuneIdImpl _value, $Res Function(_$RuneIdImpl) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? block = null,
-    Object? tx = null,
-  }) {
-    return _then(_$RuneIdImpl(
-      block: null == block
-          ? _value.block
-          : block // ignore: cast_nullable_to_non_nullable
-              as BigInt,
-      tx: null == tx
-          ? _value.tx
-          : tx // ignore: cast_nullable_to_non_nullable
-              as int,
     ));
   }
 }
 
 /// @nodoc
 
-class _$RuneIdImpl extends _RuneId {
-  const _$RuneIdImpl({required this.block, required this.tx}) : super._();
+class _Rune extends Rune {
+  const _Rune({required this.field0}) : super._();
 
   @override
-  final BigInt block;
+  final BigInt field0;
+
+  /// Create a copy of Rune
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  final int tx;
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$RuneCopyWith<_Rune> get copyWith =>
+      __$RuneCopyWithImpl<_Rune>(this, _$identity);
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$RuneIdImpl &&
+            other is _Rune &&
+            (identical(other.field0, field0) || other.field0 == field0));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, field0);
+}
+
+/// @nodoc
+abstract mixin class _$RuneCopyWith<$Res> implements $RuneCopyWith<$Res> {
+  factory _$RuneCopyWith(_Rune value, $Res Function(_Rune) _then) =
+      __$RuneCopyWithImpl;
+  @override
+  @useResult
+  $Res call({BigInt field0});
+}
+
+/// @nodoc
+class __$RuneCopyWithImpl<$Res> implements _$RuneCopyWith<$Res> {
+  __$RuneCopyWithImpl(this._self, this._then);
+
+  final _Rune _self;
+  final $Res Function(_Rune) _then;
+
+  /// Create a copy of Rune
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? field0 = null,
+  }) {
+    return _then(_Rune(
+      field0: null == field0
+          ? _self.field0
+          : field0 // ignore: cast_nullable_to_non_nullable
+              as BigInt,
+    ));
+  }
+}
+
+/// @nodoc
+mixin _$RuneId {
+  BigInt get block;
+  int get tx;
+
+  /// Create a copy of RuneId
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  $RuneIdCopyWith<RuneId> get copyWith =>
+      _$RuneIdCopyWithImpl<RuneId>(this as RuneId, _$identity);
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is RuneId &&
             (identical(other.block, block) || other.block == block) &&
             (identical(other.tx, tx) || other.tx == tx));
   }
 
   @override
   int get hashCode => Object.hash(runtimeType, block, tx);
-
-  @JsonKey(ignore: true)
-  @override
-  @pragma('vm:prefer-inline')
-  _$$RuneIdImplCopyWith<_$RuneIdImpl> get copyWith =>
-      __$$RuneIdImplCopyWithImpl<_$RuneIdImpl>(this, _$identity);
-}
-
-abstract class _RuneId extends RuneId {
-  const factory _RuneId({required final BigInt block, required final int tx}) =
-      _$RuneIdImpl;
-  const _RuneId._() : super._();
-
-  @override
-  BigInt get block;
-  @override
-  int get tx;
-  @override
-  @JsonKey(ignore: true)
-  _$$RuneIdImplCopyWith<_$RuneIdImpl> get copyWith =>
-      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-mixin _$Runestone {
-  List<Edict>? get edicts => throw _privateConstructorUsedError;
-  Etching? get etching => throw _privateConstructorUsedError;
-  RuneId? get mint => throw _privateConstructorUsedError;
-  int? get pointer => throw _privateConstructorUsedError;
-
-  @JsonKey(ignore: true)
-  $RunestoneCopyWith<Runestone> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $RunestoneCopyWith<$Res> {
-  factory $RunestoneCopyWith(Runestone value, $Res Function(Runestone) then) =
-      _$RunestoneCopyWithImpl<$Res, Runestone>;
+abstract mixin class $RuneIdCopyWith<$Res> {
+  factory $RuneIdCopyWith(RuneId value, $Res Function(RuneId) _then) =
+      _$RuneIdCopyWithImpl;
   @useResult
-  $Res call(
-      {List<Edict>? edicts, Etching? etching, RuneId? mint, int? pointer});
-
-  $EtchingCopyWith<$Res>? get etching;
-  $RuneIdCopyWith<$Res>? get mint;
+  $Res call({BigInt block, int tx});
 }
 
 /// @nodoc
-class _$RunestoneCopyWithImpl<$Res, $Val extends Runestone>
-    implements $RunestoneCopyWith<$Res> {
-  _$RunestoneCopyWithImpl(this._value, this._then);
+class _$RuneIdCopyWithImpl<$Res> implements $RuneIdCopyWith<$Res> {
+  _$RuneIdCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final RuneId _self;
+  final $Res Function(RuneId) _then;
 
+  /// Create a copy of RuneId
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? edicts = freezed,
-    Object? etching = freezed,
-    Object? mint = freezed,
-    Object? pointer = freezed,
+    Object? block = null,
+    Object? tx = null,
   }) {
-    return _then(_value.copyWith(
-      edicts: freezed == edicts
-          ? _value.edicts
-          : edicts // ignore: cast_nullable_to_non_nullable
-              as List<Edict>?,
-      etching: freezed == etching
-          ? _value.etching
-          : etching // ignore: cast_nullable_to_non_nullable
-              as Etching?,
-      mint: freezed == mint
-          ? _value.mint
-          : mint // ignore: cast_nullable_to_non_nullable
-              as RuneId?,
-      pointer: freezed == pointer
-          ? _value.pointer
-          : pointer // ignore: cast_nullable_to_non_nullable
-              as int?,
-    ) as $Val);
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $EtchingCopyWith<$Res>? get etching {
-    if (_value.etching == null) {
-      return null;
-    }
-
-    return $EtchingCopyWith<$Res>(_value.etching!, (value) {
-      return _then(_value.copyWith(etching: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $RuneIdCopyWith<$Res>? get mint {
-    if (_value.mint == null) {
-      return null;
-    }
-
-    return $RuneIdCopyWith<$Res>(_value.mint!, (value) {
-      return _then(_value.copyWith(mint: value) as $Val);
-    });
-  }
-}
-
-/// @nodoc
-abstract class _$$RunestoneImplCopyWith<$Res>
-    implements $RunestoneCopyWith<$Res> {
-  factory _$$RunestoneImplCopyWith(
-          _$RunestoneImpl value, $Res Function(_$RunestoneImpl) then) =
-      __$$RunestoneImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call(
-      {List<Edict>? edicts, Etching? etching, RuneId? mint, int? pointer});
-
-  @override
-  $EtchingCopyWith<$Res>? get etching;
-  @override
-  $RuneIdCopyWith<$Res>? get mint;
-}
-
-/// @nodoc
-class __$$RunestoneImplCopyWithImpl<$Res>
-    extends _$RunestoneCopyWithImpl<$Res, _$RunestoneImpl>
-    implements _$$RunestoneImplCopyWith<$Res> {
-  __$$RunestoneImplCopyWithImpl(
-      _$RunestoneImpl _value, $Res Function(_$RunestoneImpl) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? edicts = freezed,
-    Object? etching = freezed,
-    Object? mint = freezed,
-    Object? pointer = freezed,
-  }) {
-    return _then(_$RunestoneImpl(
-      edicts: freezed == edicts
-          ? _value._edicts
-          : edicts // ignore: cast_nullable_to_non_nullable
-              as List<Edict>?,
-      etching: freezed == etching
-          ? _value.etching
-          : etching // ignore: cast_nullable_to_non_nullable
-              as Etching?,
-      mint: freezed == mint
-          ? _value.mint
-          : mint // ignore: cast_nullable_to_non_nullable
-              as RuneId?,
-      pointer: freezed == pointer
-          ? _value.pointer
-          : pointer // ignore: cast_nullable_to_non_nullable
-              as int?,
+    return _then(_self.copyWith(
+      block: null == block
+          ? _self.block
+          : block // ignore: cast_nullable_to_non_nullable
+              as BigInt,
+      tx: null == tx
+          ? _self.tx
+          : tx // ignore: cast_nullable_to_non_nullable
+              as int,
     ));
   }
 }
 
 /// @nodoc
 
-class _$RunestoneImpl extends _Runestone {
-  const _$RunestoneImpl(
+class _RuneId extends RuneId {
+  const _RuneId({required this.block, required this.tx}) : super._();
+
+  @override
+  final BigInt block;
+  @override
+  final int tx;
+
+  /// Create a copy of RuneId
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$RuneIdCopyWith<_RuneId> get copyWith =>
+      __$RuneIdCopyWithImpl<_RuneId>(this, _$identity);
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _RuneId &&
+            (identical(other.block, block) || other.block == block) &&
+            (identical(other.tx, tx) || other.tx == tx));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, block, tx);
+}
+
+/// @nodoc
+abstract mixin class _$RuneIdCopyWith<$Res> implements $RuneIdCopyWith<$Res> {
+  factory _$RuneIdCopyWith(_RuneId value, $Res Function(_RuneId) _then) =
+      __$RuneIdCopyWithImpl;
+  @override
+  @useResult
+  $Res call({BigInt block, int tx});
+}
+
+/// @nodoc
+class __$RuneIdCopyWithImpl<$Res> implements _$RuneIdCopyWith<$Res> {
+  __$RuneIdCopyWithImpl(this._self, this._then);
+
+  final _RuneId _self;
+  final $Res Function(_RuneId) _then;
+
+  /// Create a copy of RuneId
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? block = null,
+    Object? tx = null,
+  }) {
+    return _then(_RuneId(
+      block: null == block
+          ? _self.block
+          : block // ignore: cast_nullable_to_non_nullable
+              as BigInt,
+      tx: null == tx
+          ? _self.tx
+          : tx // ignore: cast_nullable_to_non_nullable
+              as int,
+    ));
+  }
+}
+
+/// @nodoc
+mixin _$Runestone {
+  List<Edict>? get edicts;
+  Etching? get etching;
+  RuneId? get mint;
+  int? get pointer;
+
+  /// Create a copy of Runestone
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  $RunestoneCopyWith<Runestone> get copyWith =>
+      _$RunestoneCopyWithImpl<Runestone>(this as Runestone, _$identity);
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is Runestone &&
+            const DeepCollectionEquality().equals(other.edicts, edicts) &&
+            (identical(other.etching, etching) || other.etching == etching) &&
+            (identical(other.mint, mint) || other.mint == mint) &&
+            (identical(other.pointer, pointer) || other.pointer == pointer));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType,
+      const DeepCollectionEquality().hash(edicts), etching, mint, pointer);
+
+  @override
+  String toString() {
+    return 'Runestone(edicts: $edicts, etching: $etching, mint: $mint, pointer: $pointer)';
+  }
+}
+
+/// @nodoc
+abstract mixin class $RunestoneCopyWith<$Res> {
+  factory $RunestoneCopyWith(Runestone value, $Res Function(Runestone) _then) =
+      _$RunestoneCopyWithImpl;
+  @useResult
+  $Res call(
+      {List<Edict>? edicts, Etching? etching, RuneId? mint, int? pointer});
+
+  $EtchingCopyWith<$Res>? get etching;
+  $RuneIdCopyWith<$Res>? get mint;
+}
+
+/// @nodoc
+class _$RunestoneCopyWithImpl<$Res> implements $RunestoneCopyWith<$Res> {
+  _$RunestoneCopyWithImpl(this._self, this._then);
+
+  final Runestone _self;
+  final $Res Function(Runestone) _then;
+
+  /// Create a copy of Runestone
+  /// with the given fields replaced by the non-null parameter values.
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? edicts = freezed,
+    Object? etching = freezed,
+    Object? mint = freezed,
+    Object? pointer = freezed,
+  }) {
+    return _then(_self.copyWith(
+      edicts: freezed == edicts
+          ? _self.edicts
+          : edicts // ignore: cast_nullable_to_non_nullable
+              as List<Edict>?,
+      etching: freezed == etching
+          ? _self.etching
+          : etching // ignore: cast_nullable_to_non_nullable
+              as Etching?,
+      mint: freezed == mint
+          ? _self.mint
+          : mint // ignore: cast_nullable_to_non_nullable
+              as RuneId?,
+      pointer: freezed == pointer
+          ? _self.pointer
+          : pointer // ignore: cast_nullable_to_non_nullable
+              as int?,
+    ));
+  }
+
+  /// Create a copy of Runestone
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $EtchingCopyWith<$Res>? get etching {
+    if (_self.etching == null) {
+      return null;
+    }
+
+    return $EtchingCopyWith<$Res>(_self.etching!, (value) {
+      return _then(_self.copyWith(etching: value));
+    });
+  }
+
+  /// Create a copy of Runestone
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $RuneIdCopyWith<$Res>? get mint {
+    if (_self.mint == null) {
+      return null;
+    }
+
+    return $RuneIdCopyWith<$Res>(_self.mint!, (value) {
+      return _then(_self.copyWith(mint: value));
+    });
+  }
+}
+
+/// @nodoc
+
+class _Runestone extends Runestone {
+  const _Runestone(
       {final List<Edict>? edicts, this.etching, this.mint, this.pointer})
       : _edicts = edicts,
         super._();
@@ -1392,16 +1278,19 @@ class _$RunestoneImpl extends _Runestone {
   @override
   final int? pointer;
 
+  /// Create a copy of Runestone
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'Runestone(edicts: $edicts, etching: $etching, mint: $mint, pointer: $pointer)';
-  }
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$RunestoneCopyWith<_Runestone> get copyWith =>
+      __$RunestoneCopyWithImpl<_Runestone>(this, _$identity);
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$RunestoneImpl &&
+            other is _Runestone &&
             const DeepCollectionEquality().equals(other._edicts, _edicts) &&
             (identical(other.etching, etching) || other.etching == etching) &&
             (identical(other.mint, mint) || other.mint == mint) &&
@@ -1412,248 +1301,290 @@ class _$RunestoneImpl extends _Runestone {
   int get hashCode => Object.hash(runtimeType,
       const DeepCollectionEquality().hash(_edicts), etching, mint, pointer);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$RunestoneImplCopyWith<_$RunestoneImpl> get copyWith =>
-      __$$RunestoneImplCopyWithImpl<_$RunestoneImpl>(this, _$identity);
-}
-
-abstract class _Runestone extends Runestone {
-  const factory _Runestone(
-      {final List<Edict>? edicts,
-      final Etching? etching,
-      final RuneId? mint,
-      final int? pointer}) = _$RunestoneImpl;
-  const _Runestone._() : super._();
-
-  @override
-  List<Edict>? get edicts;
-  @override
-  Etching? get etching;
-  @override
-  RuneId? get mint;
-  @override
-  int? get pointer;
-  @override
-  @JsonKey(ignore: true)
-  _$$RunestoneImplCopyWith<_$RunestoneImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  String toString() {
+    return 'Runestone(edicts: $edicts, etching: $etching, mint: $mint, pointer: $pointer)';
+  }
 }
 
 /// @nodoc
-mixin _$SpacedRune {
-  Rune get rune => throw _privateConstructorUsedError;
-  int get spacers => throw _privateConstructorUsedError;
-
-  @JsonKey(ignore: true)
-  $SpacedRuneCopyWith<SpacedRune> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $SpacedRuneCopyWith<$Res> {
-  factory $SpacedRuneCopyWith(
-          SpacedRune value, $Res Function(SpacedRune) then) =
-      _$SpacedRuneCopyWithImpl<$Res, SpacedRune>;
+abstract mixin class _$RunestoneCopyWith<$Res>
+    implements $RunestoneCopyWith<$Res> {
+  factory _$RunestoneCopyWith(
+          _Runestone value, $Res Function(_Runestone) _then) =
+      __$RunestoneCopyWithImpl;
+  @override
   @useResult
-  $Res call({Rune rune, int spacers});
+  $Res call(
+      {List<Edict>? edicts, Etching? etching, RuneId? mint, int? pointer});
 
-  $RuneCopyWith<$Res> get rune;
+  @override
+  $EtchingCopyWith<$Res>? get etching;
+  @override
+  $RuneIdCopyWith<$Res>? get mint;
 }
 
 /// @nodoc
-class _$SpacedRuneCopyWithImpl<$Res, $Val extends SpacedRune>
-    implements $SpacedRuneCopyWith<$Res> {
-  _$SpacedRuneCopyWithImpl(this._value, this._then);
+class __$RunestoneCopyWithImpl<$Res> implements _$RunestoneCopyWith<$Res> {
+  __$RunestoneCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final _Runestone _self;
+  final $Res Function(_Runestone) _then;
 
-  @pragma('vm:prefer-inline')
+  /// Create a copy of Runestone
+  /// with the given fields replaced by the non-null parameter values.
   @override
+  @pragma('vm:prefer-inline')
   $Res call({
-    Object? rune = null,
-    Object? spacers = null,
+    Object? edicts = freezed,
+    Object? etching = freezed,
+    Object? mint = freezed,
+    Object? pointer = freezed,
   }) {
-    return _then(_value.copyWith(
-      rune: null == rune
-          ? _value.rune
-          : rune // ignore: cast_nullable_to_non_nullable
-              as Rune,
-      spacers: null == spacers
-          ? _value.spacers
-          : spacers // ignore: cast_nullable_to_non_nullable
-              as int,
-    ) as $Val);
+    return _then(_Runestone(
+      edicts: freezed == edicts
+          ? _self._edicts
+          : edicts // ignore: cast_nullable_to_non_nullable
+              as List<Edict>?,
+      etching: freezed == etching
+          ? _self.etching
+          : etching // ignore: cast_nullable_to_non_nullable
+              as Etching?,
+      mint: freezed == mint
+          ? _self.mint
+          : mint // ignore: cast_nullable_to_non_nullable
+              as RuneId?,
+      pointer: freezed == pointer
+          ? _self.pointer
+          : pointer // ignore: cast_nullable_to_non_nullable
+              as int?,
+    ));
   }
 
+  /// Create a copy of Runestone
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
-  $RuneCopyWith<$Res> get rune {
-    return $RuneCopyWith<$Res>(_value.rune, (value) {
-      return _then(_value.copyWith(rune: value) as $Val);
+  $EtchingCopyWith<$Res>? get etching {
+    if (_self.etching == null) {
+      return null;
+    }
+
+    return $EtchingCopyWith<$Res>(_self.etching!, (value) {
+      return _then(_self.copyWith(etching: value));
+    });
+  }
+
+  /// Create a copy of Runestone
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $RuneIdCopyWith<$Res>? get mint {
+    if (_self.mint == null) {
+      return null;
+    }
+
+    return $RuneIdCopyWith<$Res>(_self.mint!, (value) {
+      return _then(_self.copyWith(mint: value));
     });
   }
 }
 
 /// @nodoc
-abstract class _$$SpacedRuneImplCopyWith<$Res>
-    implements $SpacedRuneCopyWith<$Res> {
-  factory _$$SpacedRuneImplCopyWith(
-          _$SpacedRuneImpl value, $Res Function(_$SpacedRuneImpl) then) =
-      __$$SpacedRuneImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call({Rune rune, int spacers});
+mixin _$SpacedRune {
+  Rune get rune;
+  int get spacers;
 
-  @override
-  $RuneCopyWith<$Res> get rune;
-}
-
-/// @nodoc
-class __$$SpacedRuneImplCopyWithImpl<$Res>
-    extends _$SpacedRuneCopyWithImpl<$Res, _$SpacedRuneImpl>
-    implements _$$SpacedRuneImplCopyWith<$Res> {
-  __$$SpacedRuneImplCopyWithImpl(
-      _$SpacedRuneImpl _value, $Res Function(_$SpacedRuneImpl) _then)
-      : super(_value, _then);
-
+  /// Create a copy of SpacedRune
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? rune = null,
-    Object? spacers = null,
-  }) {
-    return _then(_$SpacedRuneImpl(
-      rune: null == rune
-          ? _value.rune
-          : rune // ignore: cast_nullable_to_non_nullable
-              as Rune,
-      spacers: null == spacers
-          ? _value.spacers
-          : spacers // ignore: cast_nullable_to_non_nullable
-              as int,
-    ));
-  }
-}
-
-/// @nodoc
-
-class _$SpacedRuneImpl extends _SpacedRune {
-  const _$SpacedRuneImpl({required this.rune, required this.spacers})
-      : super._();
-
-  @override
-  final Rune rune;
-  @override
-  final int spacers;
+  $SpacedRuneCopyWith<SpacedRune> get copyWith =>
+      _$SpacedRuneCopyWithImpl<SpacedRune>(this as SpacedRune, _$identity);
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$SpacedRuneImpl &&
+            other is SpacedRune &&
             (identical(other.rune, rune) || other.rune == rune) &&
             (identical(other.spacers, spacers) || other.spacers == spacers));
   }
 
   @override
   int get hashCode => Object.hash(runtimeType, rune, spacers);
-
-  @JsonKey(ignore: true)
-  @override
-  @pragma('vm:prefer-inline')
-  _$$SpacedRuneImplCopyWith<_$SpacedRuneImpl> get copyWith =>
-      __$$SpacedRuneImplCopyWithImpl<_$SpacedRuneImpl>(this, _$identity);
-}
-
-abstract class _SpacedRune extends SpacedRune {
-  const factory _SpacedRune(
-      {required final Rune rune,
-      required final int spacers}) = _$SpacedRuneImpl;
-  const _SpacedRune._() : super._();
-
-  @override
-  Rune get rune;
-  @override
-  int get spacers;
-  @override
-  @JsonKey(ignore: true)
-  _$$SpacedRuneImplCopyWith<_$SpacedRuneImpl> get copyWith =>
-      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-mixin _$Terms {
-  BigInt? get amount => throw _privateConstructorUsedError;
-  BigInt? get cap => throw _privateConstructorUsedError;
-  (BigInt?, BigInt?)? get height => throw _privateConstructorUsedError;
-  (BigInt?, BigInt?)? get offset => throw _privateConstructorUsedError;
-
-  @JsonKey(ignore: true)
-  $TermsCopyWith<Terms> get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $TermsCopyWith<$Res> {
-  factory $TermsCopyWith(Terms value, $Res Function(Terms) then) =
-      _$TermsCopyWithImpl<$Res, Terms>;
+abstract mixin class $SpacedRuneCopyWith<$Res> {
+  factory $SpacedRuneCopyWith(
+          SpacedRune value, $Res Function(SpacedRune) _then) =
+      _$SpacedRuneCopyWithImpl;
   @useResult
-  $Res call(
-      {BigInt? amount,
-      BigInt? cap,
-      (BigInt?, BigInt?)? height,
-      (BigInt?, BigInt?)? offset});
+  $Res call({Rune rune, int spacers});
+
+  $RuneCopyWith<$Res> get rune;
 }
 
 /// @nodoc
-class _$TermsCopyWithImpl<$Res, $Val extends Terms>
-    implements $TermsCopyWith<$Res> {
-  _$TermsCopyWithImpl(this._value, this._then);
+class _$SpacedRuneCopyWithImpl<$Res> implements $SpacedRuneCopyWith<$Res> {
+  _$SpacedRuneCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final SpacedRune _self;
+  final $Res Function(SpacedRune) _then;
 
+  /// Create a copy of SpacedRune
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? amount = freezed,
-    Object? cap = freezed,
-    Object? height = freezed,
-    Object? offset = freezed,
+    Object? rune = null,
+    Object? spacers = null,
   }) {
-    return _then(_value.copyWith(
-      amount: freezed == amount
-          ? _value.amount
-          : amount // ignore: cast_nullable_to_non_nullable
-              as BigInt?,
-      cap: freezed == cap
-          ? _value.cap
-          : cap // ignore: cast_nullable_to_non_nullable
-              as BigInt?,
-      height: freezed == height
-          ? _value.height
-          : height // ignore: cast_nullable_to_non_nullable
-              as (BigInt?, BigInt?)?,
-      offset: freezed == offset
-          ? _value.offset
-          : offset // ignore: cast_nullable_to_non_nullable
-              as (BigInt?, BigInt?)?,
-    ) as $Val);
+    return _then(_self.copyWith(
+      rune: null == rune
+          ? _self.rune
+          : rune // ignore: cast_nullable_to_non_nullable
+              as Rune,
+      spacers: null == spacers
+          ? _self.spacers
+          : spacers // ignore: cast_nullable_to_non_nullable
+              as int,
+    ));
+  }
+
+  /// Create a copy of SpacedRune
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $RuneCopyWith<$Res> get rune {
+    return $RuneCopyWith<$Res>(_self.rune, (value) {
+      return _then(_self.copyWith(rune: value));
+    });
   }
 }
 
 /// @nodoc
-abstract class _$$TermsImplCopyWith<$Res> implements $TermsCopyWith<$Res> {
-  factory _$$TermsImplCopyWith(
-          _$TermsImpl value, $Res Function(_$TermsImpl) then) =
-      __$$TermsImplCopyWithImpl<$Res>;
+
+class _SpacedRune extends SpacedRune {
+  const _SpacedRune({required this.rune, required this.spacers}) : super._();
+
   @override
+  final Rune rune;
+  @override
+  final int spacers;
+
+  /// Create a copy of SpacedRune
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$SpacedRuneCopyWith<_SpacedRune> get copyWith =>
+      __$SpacedRuneCopyWithImpl<_SpacedRune>(this, _$identity);
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _SpacedRune &&
+            (identical(other.rune, rune) || other.rune == rune) &&
+            (identical(other.spacers, spacers) || other.spacers == spacers));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, rune, spacers);
+}
+
+/// @nodoc
+abstract mixin class _$SpacedRuneCopyWith<$Res>
+    implements $SpacedRuneCopyWith<$Res> {
+  factory _$SpacedRuneCopyWith(
+          _SpacedRune value, $Res Function(_SpacedRune) _then) =
+      __$SpacedRuneCopyWithImpl;
+  @override
+  @useResult
+  $Res call({Rune rune, int spacers});
+
+  @override
+  $RuneCopyWith<$Res> get rune;
+}
+
+/// @nodoc
+class __$SpacedRuneCopyWithImpl<$Res> implements _$SpacedRuneCopyWith<$Res> {
+  __$SpacedRuneCopyWithImpl(this._self, this._then);
+
+  final _SpacedRune _self;
+  final $Res Function(_SpacedRune) _then;
+
+  /// Create a copy of SpacedRune
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? rune = null,
+    Object? spacers = null,
+  }) {
+    return _then(_SpacedRune(
+      rune: null == rune
+          ? _self.rune
+          : rune // ignore: cast_nullable_to_non_nullable
+              as Rune,
+      spacers: null == spacers
+          ? _self.spacers
+          : spacers // ignore: cast_nullable_to_non_nullable
+              as int,
+    ));
+  }
+
+  /// Create a copy of SpacedRune
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $RuneCopyWith<$Res> get rune {
+    return $RuneCopyWith<$Res>(_self.rune, (value) {
+      return _then(_self.copyWith(rune: value));
+    });
+  }
+}
+
+/// @nodoc
+mixin _$Terms {
+  BigInt? get amount;
+  BigInt? get cap;
+  (BigInt?, BigInt?)? get height;
+  (BigInt?, BigInt?)? get offset;
+
+  /// Create a copy of Terms
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  $TermsCopyWith<Terms> get copyWith =>
+      _$TermsCopyWithImpl<Terms>(this as Terms, _$identity);
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is Terms &&
+            (identical(other.amount, amount) || other.amount == amount) &&
+            (identical(other.cap, cap) || other.cap == cap) &&
+            (identical(other.height, height) || other.height == height) &&
+            (identical(other.offset, offset) || other.offset == offset));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, amount, cap, height, offset);
+
+  @override
+  String toString() {
+    return 'Terms(amount: $amount, cap: $cap, height: $height, offset: $offset)';
+  }
+}
+
+/// @nodoc
+abstract mixin class $TermsCopyWith<$Res> {
+  factory $TermsCopyWith(Terms value, $Res Function(Terms) _then) =
+      _$TermsCopyWithImpl;
   @useResult
   $Res call(
       {BigInt? amount,
@@ -1663,13 +1594,14 @@ abstract class _$$TermsImplCopyWith<$Res> implements $TermsCopyWith<$Res> {
 }
 
 /// @nodoc
-class __$$TermsImplCopyWithImpl<$Res>
-    extends _$TermsCopyWithImpl<$Res, _$TermsImpl>
-    implements _$$TermsImplCopyWith<$Res> {
-  __$$TermsImplCopyWithImpl(
-      _$TermsImpl _value, $Res Function(_$TermsImpl) _then)
-      : super(_value, _then);
+class _$TermsCopyWithImpl<$Res> implements $TermsCopyWith<$Res> {
+  _$TermsCopyWithImpl(this._self, this._then);
 
+  final Terms _self;
+  final $Res Function(Terms) _then;
+
+  /// Create a copy of Terms
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -1678,21 +1610,21 @@ class __$$TermsImplCopyWithImpl<$Res>
     Object? height = freezed,
     Object? offset = freezed,
   }) {
-    return _then(_$TermsImpl(
+    return _then(_self.copyWith(
       amount: freezed == amount
-          ? _value.amount
+          ? _self.amount
           : amount // ignore: cast_nullable_to_non_nullable
               as BigInt?,
       cap: freezed == cap
-          ? _value.cap
+          ? _self.cap
           : cap // ignore: cast_nullable_to_non_nullable
               as BigInt?,
       height: freezed == height
-          ? _value.height
+          ? _self.height
           : height // ignore: cast_nullable_to_non_nullable
               as (BigInt?, BigInt?)?,
       offset: freezed == offset
-          ? _value.offset
+          ? _self.offset
           : offset // ignore: cast_nullable_to_non_nullable
               as (BigInt?, BigInt?)?,
     ));
@@ -1701,8 +1633,8 @@ class __$$TermsImplCopyWithImpl<$Res>
 
 /// @nodoc
 
-class _$TermsImpl implements _Terms {
-  const _$TermsImpl({this.amount, this.cap, this.height, this.offset});
+class _Terms implements Terms {
+  const _Terms({this.amount, this.cap, this.height, this.offset});
 
   @override
   final BigInt? amount;
@@ -1713,16 +1645,19 @@ class _$TermsImpl implements _Terms {
   @override
   final (BigInt?, BigInt?)? offset;
 
+  /// Create a copy of Terms
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'Terms(amount: $amount, cap: $cap, height: $height, offset: $offset)';
-  }
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$TermsCopyWith<_Terms> get copyWith =>
+      __$TermsCopyWithImpl<_Terms>(this, _$identity);
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$TermsImpl &&
+            other is _Terms &&
             (identical(other.amount, amount) || other.amount == amount) &&
             (identical(other.cap, cap) || other.cap == cap) &&
             (identical(other.height, height) || other.height == height) &&
@@ -1732,30 +1667,61 @@ class _$TermsImpl implements _Terms {
   @override
   int get hashCode => Object.hash(runtimeType, amount, cap, height, offset);
 
-  @JsonKey(ignore: true)
+  @override
+  String toString() {
+    return 'Terms(amount: $amount, cap: $cap, height: $height, offset: $offset)';
+  }
+}
+
+/// @nodoc
+abstract mixin class _$TermsCopyWith<$Res> implements $TermsCopyWith<$Res> {
+  factory _$TermsCopyWith(_Terms value, $Res Function(_Terms) _then) =
+      __$TermsCopyWithImpl;
+  @override
+  @useResult
+  $Res call(
+      {BigInt? amount,
+      BigInt? cap,
+      (BigInt?, BigInt?)? height,
+      (BigInt?, BigInt?)? offset});
+}
+
+/// @nodoc
+class __$TermsCopyWithImpl<$Res> implements _$TermsCopyWith<$Res> {
+  __$TermsCopyWithImpl(this._self, this._then);
+
+  final _Terms _self;
+  final $Res Function(_Terms) _then;
+
+  /// Create a copy of Terms
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
-  _$$TermsImplCopyWith<_$TermsImpl> get copyWith =>
-      __$$TermsImplCopyWithImpl<_$TermsImpl>(this, _$identity);
+  $Res call({
+    Object? amount = freezed,
+    Object? cap = freezed,
+    Object? height = freezed,
+    Object? offset = freezed,
+  }) {
+    return _then(_Terms(
+      amount: freezed == amount
+          ? _self.amount
+          : amount // ignore: cast_nullable_to_non_nullable
+              as BigInt?,
+      cap: freezed == cap
+          ? _self.cap
+          : cap // ignore: cast_nullable_to_non_nullable
+              as BigInt?,
+      height: freezed == height
+          ? _self.height
+          : height // ignore: cast_nullable_to_non_nullable
+              as (BigInt?, BigInt?)?,
+      offset: freezed == offset
+          ? _self.offset
+          : offset // ignore: cast_nullable_to_non_nullable
+              as (BigInt?, BigInt?)?,
+    ));
+  }
 }
 
-abstract class _Terms implements Terms {
-  const factory _Terms(
-      {final BigInt? amount,
-      final BigInt? cap,
-      final (BigInt?, BigInt?)? height,
-      final (BigInt?, BigInt?)? offset}) = _$TermsImpl;
-
-  @override
-  BigInt? get amount;
-  @override
-  BigInt? get cap;
-  @override
-  (BigInt?, BigInt?)? get height;
-  @override
-  (BigInt?, BigInt?)? get offset;
-  @override
-  @JsonKey(ignore: true)
-  _$$TermsImplCopyWith<_$TermsImpl> get copyWith =>
-      throw _privateConstructorUsedError;
-}
+// dart format on
