@@ -23,10 +23,10 @@ sealed class Artifact with _$Artifact {
   ) = Artifact_Runestone;
 
   RuneId? mint() {
-    return switch (this) {
-      final Artifact_Cenotaph cenotaph => cenotaph.mint(),
-      final Artifact_Runestone runestone => runestone.mint(),
-    };
+    return when(
+      cenotaph: (cenotaph) => cenotaph.mint,
+      runestone: (runestone) => runestone.mint,
+    );
   }
 }
 
