@@ -3,6 +3,11 @@
 > Versions prefix will sync with `crate::ordinals`.
 > See https://crates.io/crates/ordinals/versions.
 
+## 0.0.8+6
+
+- Upgrade FRB 2.11.
+- Allow ffigen v19 and freezed v2.
+
 ## 0.0.8+5
 
 - Upgrade FRB 2.10 and Freezed 3.0.

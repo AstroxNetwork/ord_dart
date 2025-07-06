@@ -13,4 +13,4 @@ ordinals = "=0.0.8"
 
 [dependencies.flutter_rust_bridge]
 package = "flutter_rust_bridge"
-version = "=2.10.0"
+version = "=2.11.1"
