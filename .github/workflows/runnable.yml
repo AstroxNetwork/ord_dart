@@ -52,3 +52,10 @@ jobs:
       - name: Publish dry run
         run: dart pub publish --dry-run
         if: github.repository == 'AstroxNetwork/ord_dart'
+      - name: Build example
+        if: runner.os == 'macOS'
+        working-directory: example
+        shell: bash
+        run: |
+          flutter build ios --debug --no-codesign
+          flutter build apk --debug
