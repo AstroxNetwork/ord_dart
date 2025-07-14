@@ -3,6 +3,10 @@
 > Versions prefix will sync with `crate::ordinals`.
 > See https://crates.io/crates/ordinals/versions.
 
+## 0.0.8+7
+
+- Manually fixes Gradle platform plugin detection.
+
 ## 0.0.8+6
 
 - Upgrade FRB 2.11.
