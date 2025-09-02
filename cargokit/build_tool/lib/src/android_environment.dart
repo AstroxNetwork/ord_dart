@@ -150,6 +150,19 @@ class AndroidEnvironment {
     final toolTempDir =
         Platform.environment['CARGOKIT_TOOL_TEMP_DIR'] ?? targetTempDir;
 
+    final sysroot = path.join(
+      ndkPath,
+      'toolchains',
+      'llvm',
+      'prebuilt',
+      hostArch,
+      'sysroot',
+    );
+
+    final bindgenKey = "BINDGEN_EXTRA_CLANG_ARGS_${target.rust}";
+    final bindgenValue =
+        "--sysroot=$sysroot -I${path.join(sysroot, 'usr', 'include', target.rust)}";
+
     return {
       arKey: arValue,
       ccKey: ccValue,
@@ -159,6 +172,7 @@ class AndroidEnvironment {
       ranlibKey: ranlibValue,
       rustFlagsKey: rustFlagsValue,
       linkerKey: selfPath,
+      bindgenKey: bindgenValue,
       // Recognized by main() so we know when we're acting as a wrapper
       '_CARGOKIT_NDK_LINK_TARGET': targetArg,
       '_CARGOKIT_NDK_LINK_CLANG': ccValue,
