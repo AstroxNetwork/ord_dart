@@ -3,6 +3,14 @@
 > Versions prefix will sync with `crate::ordinals`.
 > See https://crates.io/crates/ordinals/versions.
 
+## 0.0.8+8
+
+(These changes are targeting the bundled `cargokit` for Flutter builds.)
+
+- Support Android 16KB page size.
+- Add default `BINDGEN_EXTRA_CLANG_ARGS` for `AndroidEnvironment` during build.
+- Remove hardcoded i686(x86) compilation for Android debug builds.
+
 ## 0.0.8+7
 
 - Manually fixes Gradle platform plugin detection.
